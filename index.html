@@ -14,7 +14,7 @@
     </table>
     <script src="script.js"></script>
     <div name="Inventory"></div>
-    <div name="Trades">
+    <div name="Trades" style="display:none;">
         <table>
             <thead>
                 <td>Your Inventory</td>
@@ -35,6 +35,22 @@
                 </tr>
             </tbody>
         </table>
+    </div>
+    <div name="Search">
+        <table id="SearchTable">
+            <thead>
+                <th>
+                    <input type="text" placeholder="Search">
+                    <input type="button" value="Go">
+                    <!-- Script on return key or button press, search -->
+                </th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <!-- Search by different items - search db -->
+        <!-- Return results by search setting -->
     </div>
 </body>
 </html>
